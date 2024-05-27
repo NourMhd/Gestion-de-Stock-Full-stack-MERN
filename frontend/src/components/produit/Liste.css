@@ -1,0 +1,97 @@
+/* Style global pour la liste des produits */
+.client-list {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour le titre */
+.client-list h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style pour le bouton d'ajout de produit */
+.client-list button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 12px 24px; /* Augmentez le padding pour agrandir le bouton */
+    font-size: 18px; /* Augmentez la taille de la police pour agrandir le texte */
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour le bouton d'ajout de produit au survol */
+.client-list button:hover {
+    background-color: #218838;
+}
+
+/* Style pour le tableau */
+.client-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style pour les en-têtes du tableau */
+.client-list th,
+.client-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style pour les en-têtes */
+.client-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style pour les lignes du tableau */
+.client-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style pour les boutons d'actions */
+.client-list .btn {
+    padding: 10px 20px; /* Augmentez le padding pour agrandir les boutons */
+    font-size: 16px; /* Augmentez la taille de la police pour agrandir le texte */
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour le bouton de modification */
+.client-list .edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Style pour le bouton de modification au survol */
+.client-list .edit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le bouton de suppression */
+.client-list .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Style pour le bouton de suppression au survol */
+.client-list .delete-btn:hover {
+    background-color: #c82333;
+}

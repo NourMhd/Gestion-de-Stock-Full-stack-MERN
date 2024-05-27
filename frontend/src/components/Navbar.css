@@ -1,0 +1,29 @@
+nav {
+    background-color: #0ae6ee;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  nav ul li {
+    list-style: none; /* Remove default bullet points */
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding for button feel */
+    background-color: rgba(71, 70, 71, 0.8); /* Semi-transparent background */
+    border: none; /* Remove default link border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Indicate interactivity */
+    font-size: 1rem; /* Adjust font size as needed */
+    text-align: center; /* Center text within the button */
+  }
+  
+  /* Optional hover effect for enhanced interactivity */
+  nav a:hover {
+    background-color: rgba(41, 41, 41, 0.5); /* Increase opacity on hover */
+  }
